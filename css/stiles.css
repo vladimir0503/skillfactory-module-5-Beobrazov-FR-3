@@ -1,0 +1,28 @@
+header {
+    position: absolute;
+    left: 0%;
+    right: 0.14%;
+    top: 0%;
+    bottom: 89.49%;
+    background: #131313;
+}
+
+.header__text {
+    position: absolute;
+    left: 6.39%;
+    right: 6.39%;
+    top: 3.04%;
+    bottom: 92.28%;
+    color: #FFFFFF;
+    background-color:#131313;
+    margin-top: 24px;
+}
+
+.header__text p {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
