@@ -18,11 +18,16 @@ header {
     margin-top: 24px;
 }
 
-.header__text p {
+.header__text a {
     font-family: Nunito Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 11px;
     line-height: 15px;
     color: #FFFFFF;
+}
+
+.header__text a:first-of-type {
+    text-transform: uppercase;
+    color: #E3B873;
 }
