@@ -80,4 +80,24 @@ header {
     width: 100vw;
  }
 
- 
+ .image_1__text {
+    position: absolute;
+    width: 676.11px;
+    height: 305px;
+    left: 134px;
+    top: 277px;
+ }
+
+ .image_1__text h1 {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+ }
+
+ .image_1__text span {
+    color: #E3B873;
+ }
