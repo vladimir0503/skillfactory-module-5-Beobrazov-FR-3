@@ -68,3 +68,10 @@ header {
     text-transform: uppercase;
     color: #FFFFFF;
 }
+ .image_1{
+    position: absolute;
+    left: 0%;
+    right: 0.14%;
+    top: 10.51%;
+    bottom: 0%;
+ }
