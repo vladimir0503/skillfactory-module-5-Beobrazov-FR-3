@@ -1,3 +1,5 @@
+
+
 header {
     position: absolute;
     left: 0%;
@@ -9,14 +11,11 @@ header {
 
 .header_text {
     font-family: 'Nunito Sans';
-    position: absolute;
-    left: 6.39%;
-    right: 6.39%;
-    top: 3.04%;
-    bottom: 92.28%;
-    color: #FFFFFF;
-    background-color:#131313;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 24px;
+    margin-bottom: 22px;
 }
 
 .header_text a {
@@ -26,6 +25,15 @@ header {
     line-height: 15px;
     color: #FFFFFF;
     margin-right: 47.09px;
+    transition: .2s;
+}
+
+.header_text a:hover {
+    color: #E3B873;
+}
+
+.header_text a:nth-of-type(-n+7) {
+    text-decoration: none;
 }
 
 .header_text a:first-of-type {
@@ -44,6 +52,19 @@ header {
     font-family: 'Nunito Sans';
     width: 161px;
     height: 37px;
-    margin-left: 45px;  
+    margin-left: 45px;
+    position: relative;
+    bottom: 2px;
+    border: 0;
 }
 
+.call_button__text {
+    font-family: 'Nunito Sans';
+    font-style: italic;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
