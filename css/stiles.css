@@ -68,27 +68,38 @@ header {
     text-transform: uppercase;
     color: #FFFFFF;
 }
- .image_1{
+.image_1{
     position: absolute;
     left: 0%;
     right: 0.14%;
     top: 10.51%;
     bottom: 0%;
- }
+}
 
- .image_1 img {
+.image_1__background {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    left: 0px;
+    right: 0.14px;
+    top: 0px;
+    bottom: 0px;
     width: 100vw;
- }
+    height: 707px;
+} 
 
- .image_1__text {
+.image_1 img {
+    width: 100vw;
+}
+
+.image_1__text {
     position: absolute;
     width: 676.11px;
     height: 305px;
     left: 134px;
     top: 277px;
- }
+}
 
- .image_1__text h1 {
+.image_1__text h1 {
     font-family: Yeseva One;
     font-style: normal;
     font-weight: normal;
@@ -96,8 +107,17 @@ header {
     line-height: 53px;
     text-transform: uppercase;
     color: #FFFFFF;
- }
+}
 
- .image_1__text span {
+.image_1__text span {
     color: #E3B873;
- }
+}
+
+.image_1__text p {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
