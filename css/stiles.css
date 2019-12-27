@@ -68,6 +68,11 @@ header {
     text-transform: uppercase;
     color: #FFFFFF;
 }
+
+.secion_1 {
+    width: 100vw;
+}
+
 .image_1{
     position: absolute;
     left: 0%;
