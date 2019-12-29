@@ -71,6 +71,7 @@ header {
 }
 
 .secion_1{
+    background-image: url('../images/image1.jpg');
     display: flex;
     top: 10.51%;
     bottom: 0%;
@@ -80,21 +81,19 @@ header {
     margin: 0 auto;
 }
 
-.secion_1__content img {
-    width: 1440px;
-}
-
 .secion_1__content--background {
     background: rgba(0, 0, 0, 0.7);
     position: relative;
-    bottom: 711px;
     height: 707px;
+    width: 1440px;
 } 
 
 .secion_1__content--text {
     position: relative;
-    left: 136px;
-    bottom: 1255px;
+    /* height: 100px; */
+    left: 134px;
+    top: -500px;
+    top: -544px;
 }
 
 .secion_1__content--text h1 {
