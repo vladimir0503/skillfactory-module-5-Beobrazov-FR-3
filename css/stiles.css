@@ -79,27 +79,24 @@ header {
     margin: 0 auto;
 }
 
-.secion_1 img {
+.secion_1__content img {
     width: 1440px;
 }
 
-.secion_1__background {
+.secion_1__content--background {
     background: rgba(0, 0, 0, 0.7);
     position: relative;
     bottom: 711px;
-    max-width: 1440px;
-    width: 100vw;
     height: 707px;
 } 
 
-.secion_1__text {
-    position: absolute;
-    height: 305px;
-    left: 142px;
-    top: 256px;
+.secion_1__content--text {
+    position: relative;
+    left: 136px;
+    bottom: 1255px;
 }
 
-.secion_1__text h1 {
+.secion_1__content--text h1 {
     font-family: Yeseva One;
     font-style: normal;
     font-weight: normal;
@@ -113,7 +110,7 @@ header {
     color: #E3B873;
 }
 
-.secion_1__text p {
+.secion_1__content--text p {
     font-family: Nunito Sans;
     font-style: normal;
     font-weight: normal;
