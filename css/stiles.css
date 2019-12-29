@@ -1,6 +1,6 @@
 
 header {
-    position: absolute;
+    display: flex;
     max-width: 1440px;
     width: 100vw;
     margin: 0 auto;
@@ -71,7 +71,7 @@ header {
 }
 
 .secion_1{
-    position: absolute;
+    display: flex;
     top: 10.51%;
     bottom: 0%;
     max-width: 1440px;
@@ -79,11 +79,14 @@ header {
     margin: 0 auto;
 }
 
+.secion_1 img {
+    width: 1440px;
+}
+
 .secion_1__background {
-    background: rgba(0, 0, 0, 0.7); 
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
+    background: rgba(0, 0, 0, 0.7);
+    position: relative;
+    bottom: 711px;
     max-width: 1440px;
     width: 100vw;
     height: 707px;
@@ -92,8 +95,8 @@ header {
 .secion_1__text {
     position: absolute;
     height: 305px;
-    left: 135px;
-    top: 164px;
+    left: 142px;
+    top: 256px;
 }
 
 .secion_1__text h1 {
