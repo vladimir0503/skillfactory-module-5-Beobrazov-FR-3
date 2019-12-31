@@ -161,9 +161,10 @@ header {
 
 .section_2__block_1__content {
     display: flex;
-    margin-top: 107px;
-    margin-left: 134.45px;
+    position: relative;
+    top: 176px;
     max-width: 1205px;
+    margin: 0 auto;
 }
 
 .section_2__block_1__content__text1 {
