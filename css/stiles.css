@@ -1,4 +1,12 @@
 
+*, *:after, *:before {
+	box-sizing: border-box;
+	padding: 0;
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+}
+
 header {
     display: flex;
     max-width: 1440px;
@@ -91,8 +99,7 @@ header {
 .secion_1__content--text {
     position: relative;
     left: 134px;
-    top: -500px;
-    top: -544px;
+    top: -516px;
 }
 
 .secion_1__content--text h1 {
@@ -103,6 +110,7 @@ header {
     line-height: 53px;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-bottom: 27px;
 }
 
 .Rostov-on-Don {
@@ -118,6 +126,7 @@ header {
     color: #FFFFFF;
     position: relative;
     bottom: 8px;
+    margin-bottom: 19px;
 }
 
 .button__secion_1__b1 {
@@ -126,7 +135,7 @@ header {
     border-radius: 2px;
     width: 207px;
     height: 51px;
-    margin-right: 20px;
+    margin-right: 15px;
     position: relative;
     bottom: 2px;
     border: 0; 
@@ -145,6 +154,7 @@ header {
 
 .secion_2 {
     display: flex;
+    flex-direction: column;
     max-width: 1440px;
     width: 100vw;
     margin: 0 auto;
@@ -237,6 +247,11 @@ header {
 .image_block1__link {
     display: flex;
     list-style-type: none;
+    margin: 0px;
+    position: relative;
+    top: 121px;
+    left: 600px;
+    bottom: 52px;
 }
 
 .image_block1__link a {
@@ -248,7 +263,7 @@ header {
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.3);
     text-decoration: none;
-    margin-right: 46px;
+    margin-right: 64px;
 }
 
 .image_block1__link a:hover {
@@ -256,4 +271,45 @@ header {
     transition: .2s;
     border-bottom: 1px solid #E3B873;
     padding-bottom: 6px;
+}
+
+.section_2__block_2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 259px;
+    right: 31px;
+}
+
+.cam_block {
+    display: flex;
+    flex-direction: column;
+}
+
+.cam_block h3 {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+
+.cam_svg {
+    display: flex;
+    margin-left: 33px;
+}
+
+.cam_svg__line {
+    border-bottom: 3px solid #E3B873;
+    width: 32px;
+    margin-bottom: 13px;
+}
+
+.cam_svg img {
+    margin-left: 9px;
+    margin-right: 7px;
 }
