@@ -173,7 +173,8 @@ header {
     position: relative;
     top: 176px;
     max-width: 1205px;
-    margin: 0 auto;
+    margin-left: 134px;
+    margin-right: 134px;
 }
 
 .section_2__block_1__content__text1 {
@@ -191,7 +192,7 @@ header {
     letter-spacing: -0.07em;
     text-transform: uppercase;
     color: #E3B873;
-    margin-bottom: 10px;
+    margin-bottom: 28px;
     margin-top: 0;
 
 }
@@ -220,7 +221,8 @@ header {
     line-height: 25px;
     text-transform: uppercase;
     color: #E3B873;
-    margin-bottom: -9px;
+    margin-top: 30px;
+    margin-bottom: 7px;
 }
 
 .text1_blocks .text1_block:nth-of-type(4) {
@@ -232,6 +234,7 @@ header {
     background: url('../images/image 2.png');
     width: 679px;
     height: 482px;
+    box-shadow: 0px 50px 30px rgba(0, 0, 0, 0.15);
 }
 
 .section_2__block_1__content__image_block2 {
@@ -250,7 +253,7 @@ header {
     margin: 0px;
     position: relative;
     top: 121px;
-    left: 600px;
+    left: 617px;
     bottom: 52px;
 }
 
@@ -275,15 +278,19 @@ header {
 
 .section_2__block_2 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     position: relative;
-    top: 259px;
-    right: 31px;
+    top: 249px;
 }
 
 .cam_block {
     display: flex;
+    align-items: center;
     flex-direction: column;
+    margin-bottom: 32px;
+    position: relative;
+    left: 14px;
 }
 
 .cam_block h3 {
@@ -300,7 +307,6 @@ header {
 
 .cam_svg {
     display: flex;
-    margin-left: 33px;
 }
 
 .cam_svg__line {
@@ -312,4 +318,11 @@ header {
 .cam_svg img {
     margin-left: 9px;
     margin-right: 7px;
+}
+
+.block_2__image_group {
+    margin-top: 31px;
+    margin-left: 311px;
+    margin: 0 auto;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.15);
 }
