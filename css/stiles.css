@@ -333,9 +333,10 @@ header {
     justify-content: center;
     align-items: center;
     position: relative;
-    bottom: 438px;
+    bottom: 439px;
     margin: 0px;
-    height: 434px;
+    width: 818px;
+    height: 435px;
     background: rgba(0, 0, 0, 0.8);
 }
 
@@ -379,4 +380,60 @@ header {
     border-bottom: 2px solid #E3B873;
     margin-top: 62px;
     margin-bottom: 34px;
+}
+
+.input_name {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(54, 54, 54, 0.5);
+}
+
+.section_2__block_2__input {
+    border: none;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #363636;
+    width: 231px;
+}
+
+.section_2__block_2__input_box {
+    display: flex;
+    justify-content: center;
+    margin-top: 93px;
+}
+
+.input_container {
+    width: 231px;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+    box-sizing: border-box;
+    margin-right: 58px;
+}
+
+.button__input_box {
+    background: #E3B873;
+    color: white;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    width: 200px;
+    height: 51px;
+    border: 0;
+}
+
+.button__input_box__text {
+    position: relative;
+    top: 2px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
