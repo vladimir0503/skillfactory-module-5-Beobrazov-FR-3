@@ -284,16 +284,14 @@ header {
     top: 249px;
 }
 
-.cam_block {
+.vector_block {
     display: flex;
     align-items: center;
     flex-direction: column;
     margin-bottom: 32px;
-    position: relative;
-    left: 14px;
 }
 
-.cam_block h3 {
+.vector_block h3 {
     font-family: Yeseva One;
     font-style: normal;
     font-weight: normal;
@@ -305,17 +303,17 @@ header {
     margin-bottom: 12px;
 }
 
-.cam_svg {
+.vector_svg {
     display: flex;
 }
 
-.cam_svg__line {
+.vector_svg__line {
     border-bottom: 3px solid #E3B873;
     width: 32px;
     margin-bottom: 13px;
 }
 
-.cam_svg img {
+.vector_svg img {
     margin-left: 9px;
     margin-right: 7px;
 }
@@ -440,6 +438,12 @@ header {
     color: #FFFFFF;
 }
 
+.checkbox {
+    display: flex;
+    justify-content: center;
+    margin-top: 37px;
+}
+
 .checkbox input {
     display: none; 
 }
@@ -447,6 +451,7 @@ header {
 .checkbox label {
     display: inline-block;
     position: relative;
+    margin-right: 12px;
     width: 18px; height: 18px; 
     background: url('../images/checkbox_off.png'); 
     transition: 0.2s; 
@@ -454,4 +459,101 @@ header {
 
 .checkbox input:checked + label {
     background: url('../images/checkbox_on.png');
+}
+
+.checkbox p {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 163.68%;
+}
+
+.vector_block span {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #181818;
+}
+
+.section_2__block_3 {
+    position: relative;
+    top: 237px;
+    margin-top: 82px;
+}
+
+.repair_block {
+    max-width: 1236px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.repair_block__option {
+    display: flex;
+    flex-direction: column;
+}
+
+.repair_block__option__text {
+    margin: 0 auto;
+    max-width: 330px;
+    max-height: 268px;
+    width: 330vw;
+    height: 268vh;
+    position: relative;
+    bottom: 129px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+}
+
+.repair_block__option__text p {
+    position: relative;
+    bottom: 10px;
+    margin-top: 25px;
+    margin-left: 34px;
+    margin-bottom: 8px;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636;
+}
+
+.repair_block__option__text ul {
+    position: relative;
+    bottom: 14px;
+    margin-left: 47px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 27px;
+    color: #959595;
+}
+
+.button__repair_block {
+    background: #E3B873;
+    color: white;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    width: 228px;
+    height: 51px;
+    border: 0;
+    position: relative;
+    bottom: 2px;
+}
+
+.button__repair_block__text {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FFFFFF; 
 }
