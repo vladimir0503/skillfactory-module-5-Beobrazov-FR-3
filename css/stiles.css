@@ -91,7 +91,8 @@ header {
 .secion_1__content--background {
     background: rgba(0, 0, 0, 0.7);
     position: relative;
-    height: 707px;
+    bottom: 1px;
+    height: 709px;
     max-width: 1440px;
     width: 100vw;
 } 
@@ -334,6 +335,7 @@ header {
     align-items: center;
     position: relative;
     bottom: 439px;
+    right: 1px;
     margin: 0px;
     width: 818px;
     height: 435px;
@@ -436,4 +438,20 @@ header {
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+.checkbox input {
+    display: none; 
+}
+
+.checkbox label {
+    display: inline-block;
+    position: relative;
+    width: 18px; height: 18px; 
+    background: url('../images/checkbox_off.png'); 
+    transition: 0.2s; 
+}
+
+.checkbox input:checked + label {
+    background: url('../images/checkbox_on.png');
 }
