@@ -7,6 +7,18 @@
     font-weight: normal;
 }
 
+@font-face {
+    font-family: "Nunito Sans";
+    src: url('../fonts/Nunito_Sans.woff'),
+        url('../fonts/Nunito_Sans.ttf');
+}
+
+@font-face {
+    font-family: "Yeseva One";
+    src: url('../fonts/Yeseva_One.woff'),
+        url('../fonts/Yeseva_One.ttf');
+}
+
 header {
     display: flex;
     max-width: 1440px;
@@ -253,7 +265,7 @@ header {
     margin: 0px;
     position: relative;
     top: 121px;
-    left: 617px;
+    left: 621px;
     bottom: 52px;
 }
 
