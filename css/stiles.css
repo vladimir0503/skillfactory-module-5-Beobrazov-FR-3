@@ -21,8 +21,7 @@
 
 header {
     display: flex;
-    max-width: 1440px;
-    width: 100vw;
+    width: 1440px;
     margin: 0 auto;
     top: 0%;
     bottom: 89.49%;
@@ -90,7 +89,7 @@ header {
 }
 
 .secion_1{
-    background-image: url('../images/image1.jpg');
+    background-image: url('./images/image1.jpg');
     display: flex;
     top: 10.51%;
     bottom: 0%;
@@ -100,13 +99,17 @@ header {
     margin: 0 auto;
 }
 
+.secion_1__content--background_image {
+    background-image: url('../images/image1.jpg');
+    width: 1440px;
+}
+
 .secion_1__content--background {
     background: rgba(0, 0, 0, 0.7);
     position: relative;
     bottom: 1px;
     height: 709px;
-    max-width: 1440px;
-    width: 100vw;
+    width: 1440px;
 } 
 
 .secion_1__content--text {
