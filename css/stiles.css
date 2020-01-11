@@ -123,15 +123,12 @@ header {
 .secion_1__content--background_image {
     background-image: url('../images/image1.jpg');
     width: 1440px;
+    height: 707px;
 }
 
-.secion_1__content--background {
-    background: rgba(0, 0, 0, 0.7);
-    position: relative;
-    bottom: 1px;
-    height: 709px;
-    width: 1440px;
-} 
+.secion_1__content--background_image::before {
+    content: url('../images/Rectangle_3.3.png');
+}
 
 .secion_1__content--text {
     position: relative;
