@@ -19,7 +19,7 @@
         url('../fonts/Yeseva_One.ttf');
 }
 
-header {
+.header_and_footer {
     display: flex;
     width: 1440px;
     margin: 0 auto;
@@ -897,4 +897,38 @@ header {
     width: 200px;
     height: 51px;
     margin: 0;
+}
+
+.section_3__block_3 {
+    margin-top: -446px;
+    width: 1440px;
+    height: 953px;
+    background: url('../images/image_7.2.jpg');
+}
+
+.section_3__block_3::before {
+    content: url('../images/Rectangle_9.2.png')
+}
+
+.heading_9 {
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #E3B873;
+}
+
+.section_3__block_3__adress_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -686px;
+}
+
+.adress_block__link_block {
+    display: flex;
+    margin-bottom: 29px;
+}
+
+.adress_block__link_block img {
+    margin-right: 15px;
 }
