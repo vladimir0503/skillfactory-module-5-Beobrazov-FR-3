@@ -19,13 +19,20 @@
         url('../fonts/Yeseva_One.ttf');
 }
 
-.header_and_footer {
+header {
     display: flex;
     width: 1440px;
     margin: 0 auto;
     top: 0%;
     bottom: 89.49%;
     background: #131313;
+}
+
+@media screen and (max-width: 1300px) {
+    header {
+        width: 375px;
+        height: 54px;
+    }
 }
 
 .header_text {
@@ -56,12 +63,32 @@
     text-decoration: none;
 }
 
+@media screen and (max-width: 1300px) {
+    .header_text a:nth-of-type(n+2):nth-of-type(-n+7) {
+        display: none;
+    }
+}
+
 .header_text a:first-of-type {
     margin-right: 95.47px;
 }
 
+@media screen and (max-width: 1300px) {
+    .header_text a:first-of-type {
+        margin-right: 44.47px;
+    }
+}
+
 .header_text a:nth-of-type(8) {
     margin-left: 67.36px;
+}
+
+@media screen and (max-width: 1300px) {
+    .header_text a:nth-of-type(8) {
+        position: relative;
+        left: 41px;
+        margin-left: 0;
+    }
 }
 
 .heading {
@@ -99,6 +126,18 @@
     border: 0;
 }
 
+.button_header {
+    width: 161px;
+    height: 37px;
+    margin-left: 45px;
+}
+
+@media screen and (max-width: 1300px) {
+    .button_header {
+        display: none;
+    }
+}
+
 .button__text {
     font-family: 'Nunito Sans';
     font-weight: normal;
@@ -110,7 +149,6 @@
 }
 
 .secion_1{
-    background-image: url('./images/image1.jpg');
     display: flex;
     top: 10.51%;
     bottom: 0%;
@@ -120,20 +158,49 @@
     margin: 0 auto;
 }
 
+@media screen and (max-width: 1300px) {
+    .secion_1{
+        max-width: 375px;
+        max-height: 476px;
+    }
+}
+
 .secion_1__content--background_image {
     background-image: url('../images/image1.jpg');
     width: 1440px;
     height: 707px;
 }
 
+@media screen and (max-width: 1300px) {
+    .secion_1__content--background_image {
+        background-image: url('../images/image 4.7.jpg');
+        width: 375px;
+        height: 476px;
+    }
+}
+
 .secion_1__content--background_image::before {
     content: url('../images/Rectangle 3.3.png');
+}
+
+@media screen and (max-width: 1300px) {
+    .secion_1__content--background_image::before {
+        content: url('../images/Rectangle 3.7.png');
+    }
 }
 
 .secion_1__content--text {
     position: relative;
     left: 134px;
     top: -516px;
+}
+
+@media screen and (max-width: 1300px) {
+    .secion_1__content--text {
+        position: relative;
+        left: 30px;
+        top: -412px;
+    }
 }
 
 .headind {
@@ -145,6 +212,20 @@
     text-transform: uppercase;
     color: #FFFFFF;
     margin-bottom: 27px;
+}
+
+.first_heading {
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1300px) {
+    .first_heading {
+        font-size: 23px;
+        line-height: 132.83%;
+        margin-left: -12px;
+    }
 }
 
 .Rostov-on-Don {
@@ -163,11 +244,31 @@
     margin-bottom: 19px;
 }
 
+.first_paragraph {
+    font-size: 22px;
+    line-height: 36px;
+}
+
+@media screen and (max-width: 1300px) {
+    .first_paragraph {
+        font-size: 14px;
+        line-height: 135.84%;
+        margin-bottom: 46px;
+        margin-left: -12px;
+    }
+}
+
 .secion_1__b1 {
-    width: 207px;
-    height: 51px;
-    margin-left: 0px;
-    margin-right: 15px; 
+    width: 338px;
+    right: 11px;
+    margin-bottom: 26px; 
+}
+
+@media screen and (max-width: 1300px) {
+    .secion_1__b1 {
+        height: 51px;
+        right: 56px; 
+    }
 }
 
 .secion_1__b2 {
@@ -176,6 +277,13 @@
     height: 51px;
     border: 1px solid #FFFFFF; 
     margin-left: 0px;
+}
+
+@media screen and (max-width: 1300px) {
+    .secion_1__b2 {
+        width: 338px;
+        right: 11px;
+    }
 }
 
 .secion_2 {
@@ -931,4 +1039,13 @@
 
 .adress_block__link_block img {
     margin-right: 15px;
+}
+
+footer {
+    display: flex;
+    width: 1440px;
+    margin: 0 auto;
+    top: 0%;
+    bottom: 89.49%;
+    background: #131313;
 }
