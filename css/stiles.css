@@ -173,19 +173,23 @@ header {
 
 @media screen and (max-width: 1300px) {
     .secion_1__content--background_image {
-        background-image: url('../images/image 4.7.jpg');
+        background-image: url('../images/image 4.7.png');
         width: 375px;
         height: 476px;
     }
 }
 
-.secion_1__content--background_image::before {
-    content: url('../images/Rectangle 3.3.png');
+.secion_1__content--background {
+    width: 1440px;
+    height: 707px;
+    background: rgba(0, 0, 0, 0.7);
 }
 
 @media screen and (max-width: 1300px) {
-    .secion_1__content--background_image::before {
-        content: url('../images/Rectangle 3.7.png');
+    .secion_1__content--background {
+        width: 375px;
+        height: 476px;
+        background: rgba(0, 0, 0, 0.7);
     }
 }
 
@@ -224,6 +228,7 @@ header {
     .first_heading {
         font-size: 23px;
         line-height: 132.83%;
+        margin-top: 20px;
         margin-left: -12px;
     }
 }
@@ -259,15 +264,18 @@ header {
 }
 
 .secion_1__b1 {
-    width: 338px;
+    width: 207px;
+    height: 51px;
     right: 11px;
-    margin-bottom: 26px; 
+    margin-left: 13px; 
 }
 
 @media screen and (max-width: 1300px) {
     .secion_1__b1 {
+        width: 338px;
         height: 51px;
-        right: 56px; 
+        margin-left: 0;
+        margin-bottom: 26px; 
     }
 }
 
