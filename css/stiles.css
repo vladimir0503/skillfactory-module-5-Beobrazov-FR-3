@@ -302,6 +302,12 @@ header {
     margin: 0 auto;
 }
 
+@media screen and (max-width: 1300px) {
+    .secion_2 {
+        max-width: 375px;
+    }
+}
+
 .section_2__block_1 {
     width: 1440px;
     height: 1074px;
@@ -310,12 +316,27 @@ header {
     background: #131313;
 }
 
+@media screen and (max-width: 1300px) {
+    .section_2__block_1 {
+        width: 375px;
+        height: 1074px;
+    }
+}
+
 .section_2__block_1__content {
     display: flex;
     justify-content: center;
     position: relative;
     top: 176px;
     max-width: 1440px;
+}
+
+@media screen and (max-width: 1300px) {
+    .section_2__block_1__content {
+        flex-direction: column;
+        top: 34px;
+        max-width: 1440px;
+    }
 }
 
 .section_2__block_1__content__text1 {
@@ -332,10 +353,43 @@ header {
     margin-bottom: 28px;
 }
 
+@media screen and (max-width: 1300px) {
+    .heading_2 {
+        font-size: 22px;
+        line-height: 138.6%;
+        text-align: center;
+    }
+}
+
 .section_2__block_1__content__paragraph {
     font-size: 14px;
     line-height: 27px;
 }
+
+@media screen and (max-width: 1300px) {
+    .section_2__block_1__content__paragraph {
+        font-size: 11px;
+        line-height: 158.48%;
+        text-align: center;
+    }
+
+    .none_br {
+        display: none;
+    }
+}
+
+.section_2__block_1__content__paragraph_2 {
+    font-size: 14px;
+    line-height: 27px;
+}
+
+@media screen and (max-width: 1300px) {
+    .section_2__block_1__content__paragraph_2 {
+        font-size: 11px;
+        line-height: 135.84%;
+    }
+}
+
 
 .text1_blocks {
     display: flex;
@@ -344,12 +398,30 @@ header {
     max-width: 355px;
 }
 
+@media screen and (max-width: 1300px) {
+    .text1_blocks {
+        width: 300px;
+    }
+
+    .text1_block__relative {
+        position: relative;
+    right: 11px;
+    }
+}
+
 .heading_3 {
     font-size: 18px;
     line-height: 25px;
     color: #E3B873;
     margin-top: 30px;
     margin-bottom: 7px;
+}
+
+@media screen and (max-width: 1300px) {
+    .heading_3 {
+        font-size: 14px;
+        line-height: 138.6%;
+    }
 }
 
 .text1_blocks .text1_block:nth-of-type(4) {
@@ -364,14 +436,71 @@ header {
     box-shadow: 0px 50px 30px rgba(0, 0, 0, 0.15);
 }
 
+@media screen and (max-width: 1300px) {
+    .section_2__block_1__content__image_block1 {
+        background: url('../images/image_2_mobile.png');
+        width: 340px;
+        height: 241px;
+        box-shadow: 0px 50px 30px rgba(0, 0, 0, 0.15);
+    }
+}
+
+.section_2__block_1__content__image_block1__mobile_buttons {
+    display: none;
+}
+
+@media screen and (max-width: 1300px) {
+    .section_2__block_1__content__image_block1__mobile_buttons {
+        display: flex;
+        justify-content: center;
+        margin-top: 106px;
+    }
+
+    .mobile_buttons_flex {
+        width: 309px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mobile_button {
+        border-radius: 50px;
+        width: 36px;
+        height: 36px;
+        margin: 0;
+    }
+
+    .vector_arrow {
+        position: relative;
+        top: 1px;
+        right: 2px;
+    }
+
+    .arrow_two {
+        right: 0px;
+    }
+}
+
 .section_2__block_1__content__image_block2 {
     background: url('../images/image 2.1.png');
     width: 679px;
     height: 482px;
 }
 
+@media screen and (max-width: 1300px) {
+    .section_2__block_1__content__image_block2 {
+        display: none;
+    }
+}
+
 .arrows {
     margin-top: 75px;
+}
+
+@media screen and (max-width: 1300px) {
+    .arrows {
+        display: none;
+    }
 }
 
 .image_block1__link {
@@ -382,6 +511,12 @@ header {
     top: 121px;
     left: 621px;
     bottom: 52px;
+}
+
+@media screen and (max-width: 1300px) {
+    .image_block1__link {
+        display: none;
+    }
 }
 
 .image_block1__link a {
@@ -446,6 +581,12 @@ header {
     justify-content: center;
     margin: 0 auto;
     box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.15);
+}
+
+@media screen and (max-width: 1300px) {
+    .block_2__image_group {
+        display: none;
+    }
 }
 
 .block_2__image_group__background {
