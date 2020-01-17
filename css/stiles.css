@@ -573,7 +573,7 @@ header {
 .section_2__block_2 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    margin: 0 auto;
     margin-top: -327px;
     margin-bottom: 69px;
 }
@@ -589,6 +589,7 @@ header {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin: 0 auto;
     margin-bottom: 32px;
 }
 
@@ -707,7 +708,7 @@ header {
     height: 130px;
 }
 
-/* @media screen and (min-width: 1300px) {
+@media screen and (min-width: 1300px) {
     .break_mob {
         display: none;
     }
@@ -720,7 +721,7 @@ header {
         color: #FFFFFF;
         width: 340px;
     }
-} */
+}
 
 .section_2__block_2__text_line {
     width: 55px;
@@ -943,8 +944,7 @@ header {
 .section_3 {
     display: flex;
     flex-direction: column;
-    max-width: 1440px;
-    width: 100vw;
+    justify-content: space-between;
     margin: 0 auto;
 }
 
@@ -993,12 +993,14 @@ header {
 
 .section_3__block_1 {
     display: flex;
-    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 121px;
 }
 
 .section_3__block_1__building_block {
     display: flex;
     justify-content: flex-end;
+    margin-right: 131px;
 }
 
 .section_3__block_1__building_block__content_block {
@@ -1091,10 +1093,9 @@ header {
 .button__input_block {
     width: 213px;
     height: 51px;
-    margin: 0;
-    position: relative;
-    left: 103px;
-    bottom: 44px;
+    margin-top: -65px;
+    margin-left: 196px;
+    margin-bottom: 48px;
     border-radius: 0;
 }
 
@@ -1247,6 +1248,7 @@ header {
     margin: 0 auto;
     position: relative;
     bottom: 222px;
+    z-index: 10;
 }
 .section_3__block_2__input_block form {
     display: flex;
@@ -1318,14 +1320,10 @@ header {
 }
 
 .section_3__block_3 {
-    margin-top: -446px;
-    width: 1440px;
+    background-image: url('../images/image_7.2.jpg');
+    background-size: cover;
+    margin-top: -954px;
     height: 953px;
-    background: url('../images/image_7.2.jpg');
-}
-
-.section_3__block_3::before {
-    content: url('../images/Rectangle_9.2.png')
 }
 
 .heading_9 {
@@ -1338,8 +1336,19 @@ header {
 .section_3__block_3__adress_block {
     display: flex;
     flex-direction: column;
+    max-width: 925px;
+    margin: 0 auto;
     align-items: center;
-    margin-top: -686px;
+    margin-top: 263px;
+    position: relative;
+}
+
+.section_3__block_3__adress_block__bakground {
+    content: url('../images/Rectangle 9.2.png');
+    background-size: cover;
+    margin-top: -443px;
+    height: 953px;
+    position: relative;
 }
 
 .adress_block__link_block {
@@ -1353,9 +1362,8 @@ header {
 
 footer {
     display: flex;
-    width: 1440px;
-    margin: 0 auto;
-    top: 0%;
-    bottom: 89.49%;
+    justify-content: space-between;
+    align-items: center;
+    height: 83px;
     background: #131313;
 }
