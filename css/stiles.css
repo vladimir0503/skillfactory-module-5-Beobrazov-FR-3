@@ -153,22 +153,23 @@ header {
 }
 
 .secion_1 {
-    background-image: url('../images/image1.jpg');
+    background: url('../images/image1.jpg');
     background-size: cover;
+    position: relative;
     height: 707px;
     padding-top: 194px;
 
 }
 
-/* .secion_1::before {
+.secion_1::after {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.7);
-} */
+    background: rgba(0,0,0,0.7);
+}
 
 /* @media screen and (max-width: 1300px) {
     .secion_1{
@@ -178,17 +179,19 @@ header {
 } */
 
 .secion_1__content--text {
+    position: relative;
+    z-index: 1;
     max-width: 1143px;
     margin: 0 auto;
 }
 
-.secion_1__content--background {
+/* .secion_1__content--background {
     background-image: url('../images/Rectangle 3.3.png');
     background-size: cover;
     height: 707px;
     margin-top: -194px;
     padding-top: 194px;
-}
+} */
 
 /* @media screen and (max-width: 1300px) {
     .secion_1__content--background_image {
