@@ -466,6 +466,13 @@ header {
     box-shadow: 0px 50px 30px rgba(0, 0, 0, 0.15);
 }
 
+.section_2__block_1__content__image_block2 {
+    background: url('../images/image 2.1.png');
+    width: 679px;
+    height: 482px;
+    box-shadow: 0px 50px 30px rgba(0, 0, 0, 0.15);
+}
+
 /* @media screen and (max-width: 1300px) {
     .section_2__block_1__content__image_block1 {
         position: relative;
