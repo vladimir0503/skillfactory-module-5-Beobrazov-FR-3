@@ -857,6 +857,7 @@ header {
 .checkbox label {
     display: inline-block;
     position: relative;
+    margin-top: 14px;
     margin-right: 12px;
     width: 18px; height: 18px; 
     background: url('../images/checkbox_off.png'); 
@@ -1087,6 +1088,7 @@ header {
 .checkbox2 label {
     display: inline-block;
     position: relative;
+    margin-top: 12px;
     margin-right: 12px;
     width: 18px; height: 18px; 
     background: url('../images/checkbox_off.png'); 
