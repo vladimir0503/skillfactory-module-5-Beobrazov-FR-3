@@ -303,12 +303,6 @@ header {
     margin: 0 auto;
 }
 
-/* @media screen and (max-width: 1300px) {
-    .secion_2 {
-        max-width: 375px;
-    }
-} */
-
 .section_2__block_1 {
     height: 1074px;
     left: -2.45px;
@@ -316,12 +310,11 @@ header {
     background: #131313;
 }
 
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     .section_2__block_1 {
-        width: 375px;
         height: 1527px;
     }
-} */
+}
 
 .section_2__block_1__content_container {
     max-width: 1171px;
@@ -335,13 +328,13 @@ header {
     margin: 0 auto;
 }
 
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     .section_2__block_1__content {
         flex-direction: column;
         top: 34px;
         max-width: 1440px;
     }
-} */
+}
 
 .section_2__block_1__content__text1 {
     display: flex;
@@ -349,14 +342,14 @@ header {
     margin-right: 50px;
 }
 
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     .section_2__block_1__content__text1 {
         display: flex;
         flex-direction: column;
         width: 311px;
         margin: 0 auto;
     }
-} */
+}
 
 .heading_2 {
     font-size: 27px;
@@ -366,20 +359,21 @@ header {
     margin-bottom: 28px;
 }
 
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     .heading_2 {
         font-size: 22px;
         line-height: 138.6%;
         text-align: center;
+        margin-top: 36px;
     }
-} */
+}
 
 .section_2__block_1__content__paragraph {
     font-size: 14px;
     line-height: 27px;
 }
 
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     .section_2__block_1__content__paragraph {
         font-size: 11px;
         line-height: 158.48%;
@@ -389,20 +383,20 @@ header {
     .none_br {
         display: none;
     }
-} */
+}
 
 .section_2__block_1__content__paragraph_2 {
     font-size: 14px;
     line-height: 27px;
 }
 
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     .section_2__block_1__content__paragraph_2 {
         font-size: 11px;
         line-height: 135.84%;
         top: 6px;
     }
-} */
+}
 
 
 .text1_blocks {
@@ -412,7 +406,7 @@ header {
     max-width: 355px;
 }
 
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     .text1_blocks {
         width: 300px;
         position: relative;
@@ -424,7 +418,7 @@ header {
         position: relative;
         right: 11px;
     }
-} */
+}
 
 .heading_3 {
     font-size: 18px;
@@ -434,12 +428,12 @@ header {
     margin-bottom: 7px;
 }
 
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     .heading_3 {
         font-size: 14px;
         line-height: 138.6%;
     }
-} */
+}
 
 .text1_blocks .text1_block:nth-of-type(4) {
     position: relative;
@@ -460,23 +454,22 @@ header {
     box-shadow: 0px 50px 30px rgba(0, 0, 0, 0.15);
 }
 
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     .section_2__block_1__content__image_block1 {
-        position: relative;
-        bottom: 165px;
-        left: 18px;
-        background: url('../images/image_2_mobile.png');
+        margin: 0 auto;
+        margin-top: -168px;
+        background: url(../images/image_2_mobile.png);
         width: 340px;
         height: 241px;
         box-shadow: 0px 50px 30px rgba(0, 0, 0, 0.15);
     }
-} */
+}
 
 .section_2__block_1__content__image_block1__mobile_buttons {
     display: none;
 }
 
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     .section_2__block_1__content__image_block1__mobile_buttons {
         display: flex;
         justify-content: center;
@@ -512,23 +505,23 @@ header {
     background: url('../images/image 2.1.png');
     width: 679px;
     height: 482px;
-} */
+}
 
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     .section_2__block_1__content__image_block2 {
         display: none;
     }
-} */
+}
 
 .arrows {
     margin-top: 75px;
 }
 
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     .arrows {
         display: none;
     }
-} */
+}
 
 .image_block1__link {
     display: flex;
@@ -539,11 +532,11 @@ header {
     margin-bottom: 45px;
 }
 
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     .image_block1__link {
         display: none;
     }
-} */
+}
 
 .image_block1__link a {
     font-family: Yeseva One;
@@ -572,12 +565,12 @@ header {
     margin-bottom: 69px;
 }
 
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     .section_2__block_2 {
-        bottom: 500px;
-        position: relative;
+        margin-top: -830px;
+        max-width: 340px;
     }
-} */
+}
 
 .vector_block {
     display: flex;
@@ -593,12 +586,12 @@ header {
     margin-bottom: 12px;
 }
 
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     .heading_4 {
         font-size: 22px;
         line-height: 138.6%;
     }
-} */
+}
 
 .vector_svg {
     display: flex;
@@ -624,7 +617,7 @@ header {
     box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.15);
 }
 
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     .image_group_container__image_laptop {
         display: none;
     }
@@ -634,7 +627,7 @@ header {
         width: 340px;
         height: 207px;
     }
-} */
+}
 
 .block_2__image_group__background {
     display: flex;
@@ -649,14 +642,14 @@ header {
     background: rgba(0, 0, 0, 0.8);
 }
 
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     .block_2__image_group__background {
         bottom: 0;
         right: 0;
         width: 340px;
         height: 207px;
     }
-} */
+}
 
 .button__block_2__image_group {
     border-radius: 50px;
@@ -665,26 +658,26 @@ header {
     margin: 0;
 }
 
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     .button__block_2__image_group {
         width: 37px;
         height: 37px;
     }
-} */
+}
 
 .button__block_2__image_group img {
     position: relative;
     left: 2px;
 }
 
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     .button__block_2__image_group img {
         left: 1px;
         top: 2px;
         width: 12px;
         height: 12px;
     }
-} */
+}
 
 
 .section_2__block_2__text {
@@ -724,12 +717,12 @@ header {
     margin-bottom: 34px;
 }
 
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     .section_2__block_2__text_line {
         margin-top: 24px;
         margin-bottom: 26px;
     }
-} */
+}
 
 .input_name {
     font-family: Nunito Sans;
@@ -740,11 +733,11 @@ header {
     color: rgba(54, 54, 54, 0.5);
 }
 
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     .input_name {
         color: rgba(255, 255, 255, 0.5);
     }
-} */
+}
 
 .input_field {
     border: none;
@@ -757,7 +750,7 @@ header {
     width: 231px;
 }
 
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     .input_field {
         background-color: #fff0;
     }
@@ -769,7 +762,7 @@ header {
     .input_field::-moz-placeholder {
         color: #FFFFFF;
     }
-} */
+}
 
 .section_2__block_2__input_box {
     display: flex;
@@ -777,12 +770,12 @@ header {
     margin-top: 93px;
 }
 
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     .section_2__block_2__input_box {
         flex-direction: column;
         margin-top: 0;
     }
-} */
+}
 
 .input_container {
     width: 231px;
@@ -791,14 +784,13 @@ header {
     margin-right: 58px;
 }
 
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     .input_container {
         width: 340px;
         border-bottom: 1px solid rgba(255, 255, 255, 0.52);
-        margin-left: 16px;
         margin-bottom: 63px;
     }
-} */
+}
 
 .button__input_box {
     width: 200px;
@@ -806,15 +798,15 @@ header {
     margin: 0;
 }
 
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     .button__input_box {
         width: 340px;
         height: 51px;
         margin: 0 auto;
         position: relative;
-        top: 74px;
+        top: 48px;
     }
-} */
+}
 
 .button__input_box__text {
     position: relative;
@@ -828,14 +820,13 @@ header {
     margin-top: 37px;
 }
 
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     .checkbox {
-        position: relative;
-        bottom: 88px;
-        right: 28px;
-        margin-top: 0;
+        margin-top: -99px;
+        margin-right: 52px;
+        margin-bottom: 31px;
     }
-} */
+}
 
 .checkbox input {
     display: none; 
@@ -862,11 +853,11 @@ header {
     line-height: 163.68%;
 }
 
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     .checkbox_text1 {
         color: white;
     }
-} */
+}
 
 .heading_5 {
     font-size: 20px;
@@ -881,9 +872,23 @@ header {
     justify-content: space-between;
 }
 
+@media screen and (max-width: 1300px) {
+    .repair_block {
+        max-width: 340px;
+        flex-direction: column;
+    }
+}
+
 .repair_block__option {
     display: flex;
     flex-direction: column;
+}
+
+@media screen and (max-width: 1300px) {
+    .repair_block__option {
+        height: 582px;
+        margin-bottom: 59px;
+    }
 }
 
 .repair_block__option__text {
@@ -896,6 +901,14 @@ header {
     bottom: 129px;
     background: #FFFFFF;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+}
+
+@media screen and (max-width: 1300px) {
+    .repair_block__option__text {
+        margin-left: 0px;
+        width: 270px;
+        height: 241px;
+    }
 }
 
 .repair_block__option__text p {
@@ -912,6 +925,13 @@ header {
     color: #363636;
 }
 
+@media screen and (max-width: 1300px) {
+    .repair_block__option__text p {
+        font-size: 15px;
+        line-height: 138.6%;
+    }
+}
+
 .repair_block__option__text ul {
     position: relative;
     bottom: 14px;
@@ -922,6 +942,13 @@ header {
     font-size: 13px;
     line-height: 27px;
     color: #959595;
+}
+
+@media screen and (max-width: 1300px) {
+    .repair_block__option__text ul {
+        line-height: 169.8%;
+        color: #959595;
+    }
 }
 
 .button__repair_block {
