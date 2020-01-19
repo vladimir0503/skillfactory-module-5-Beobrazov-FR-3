@@ -26,11 +26,11 @@ header {
     background: #131313;
 }
 
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     header {
-        height: 54px;
+        height: 51px;
     }
-} */
+}
 
 .header_text {
     max-width: 1258px;
@@ -43,12 +43,12 @@ header {
     margin-bottom: 22px;
 }
 
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     .header_text {
         max-width: 308px;
         margin: 0 auto;
     }
-} */
+}
 
 .header_text a {
     font-style: normal;
@@ -68,32 +68,32 @@ header {
     text-decoration: none;
 }
 
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     .header_text a:nth-of-type(n+2):nth-of-type(-n+7) {
         display: none;
     }
-} */
+}
 
 .header_text a:first-of-type {
     margin-right: 95.47px;
 }
 
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     .header_text a:first-of-type {
         margin-right: 53px;
     }
-} */
+}
 
 .header_text a:nth-of-type(8) {
     margin-left: 67.36px;
 }
 
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     .header_text a:nth-of-type(8) {
         margin-left: 0;
         margin-right: 0;
     }
-} */
+}
 
 .heading {
     font-family: Yeseva One;
@@ -136,11 +136,11 @@ header {
     margin-left: 45px;
 }
 
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     .button_header {
         display: none;
     }
-} */
+}
 
 .button__text {
     font-family: 'Nunito Sans';
@@ -171,12 +171,16 @@ header {
     background: rgba(0,0,0,0.7);
 }
 
-/* @media screen and (max-width: 1300px) {
-    .secion_1{
-        max-width: 375px;
-        max-height: 476px;
+@media screen and (max-width: 1300px) {
+    .secion_1 {
+        background: url('../images/image 4.7.png');
+        background-size: cover;
+        position: relative;
+        height: 476px;
+        padding-top: 194px;
+    
     }
-} */
+}
 
 .secion_1__content--text {
     position: relative;
@@ -185,44 +189,13 @@ header {
     margin: 0 auto;
 }
 
-/* .secion_1__content--background {
-    background-image: url('../images/Rectangle 3.3.png');
-    background-size: cover;
-    height: 707px;
-    margin-top: -194px;
-    padding-top: 194px;
-} */
-
-/* @media screen and (max-width: 1300px) {
-    .secion_1__content--background_image {
-        background-image: url('../images/image 4.7.png');
-        width: 375px;
-        height: 476px;
-    }
-} */
-
-
-/* @media screen and (max-width: 1300px) {
-    .secion_1__content--background {
-        width: 375px;
-        height: 476px;
-        background: rgba(0, 0, 0, 0.7);
-    }
-} */
-
-/* .secion_1__content--text {
-    position: relative;
-    left: 134px;
-    top: -516px;
-} */
-
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     .secion_1__content--text {
-        position: relative;
-        left: 30px;
-        top: -412px;
+        margin: 0 auto;
+        max-width: 338px;
+        margin-top: -111px;
     }
-} */
+}
 
 .headind {
     font-family: Yeseva One;
@@ -242,14 +215,12 @@ header {
     margin-top: 0;
 }
 
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     .first_heading {
         font-size: 23px;
         line-height: 132.83%;
-        margin-top: 20px;
-        margin-left: -12px;
     }
-} */
+}
 
 .Rostov-on-Don {
     color: #E3B873;
@@ -272,14 +243,27 @@ header {
     line-height: 36px;
 }
 
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
+    .first_paragraph {
+        font-size: 22px;
+        line-height: 36px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
     .first_paragraph {
         font-size: 14px;
         line-height: 135.84%;
-        margin-bottom: 46px;
-        margin-left: -12px;
+        margin-bottom: 64px;
     }
-} */
+}
+
+@media screen and (max-width: 1300px) {
+    .secion_1__buttons {
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 .secion_1__b1 {
     width: 207px;
@@ -288,14 +272,13 @@ header {
     margin-left: 13px; 
 }
 
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     .secion_1__b1 {
         width: 338px;
-        height: 51px;
-        margin-left: 0;
-        margin-bottom: 26px; 
+        margin-left: 10px;
+        margin-bottom: 26px;
     }
-} */
+}
 
 .secion_1__b2 {
     background: #fff0;
@@ -305,12 +288,13 @@ header {
     margin-left: 0px;
 }
 
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     .secion_1__b2 {
         width: 338px;
         right: 11px;
+        margin-left: 10px;
     }
-} */
+}
 
 .secion_2 {
     display: flex;
