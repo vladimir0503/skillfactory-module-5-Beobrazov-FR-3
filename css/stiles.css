@@ -6,6 +6,10 @@
     font-weight: normal;
 }
 
+body {
+    margin: 0;
+}
+
 @font-face {
     font-family: "Nunito Sans";
     src: url('../fonts/Nunito_Sans.woff'),
@@ -118,6 +122,7 @@ header {
 }
 
 .button {
+    cursor: pointer;
     background: #E3B873;
     color: white;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
