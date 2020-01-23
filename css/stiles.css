@@ -84,7 +84,7 @@ header {
 
 @media screen and (max-width: 1300px) {
     .header_text a:first-of-type {
-        margin-right: 53px;
+        margin-right: 41px;
     }
 }
 
@@ -197,7 +197,7 @@ header {
 @media screen and (max-width: 1300px) {
     .secion_1__content--text {
         margin: 0 auto;
-        max-width: 338px;
+        max-width: 296px;
         margin-top: -111px;
     }
 }
@@ -279,7 +279,7 @@ header {
 
 @media screen and (max-width: 1300px) {
     .secion_1__b1 {
-        width: 338px;
+        width: 298px;
         margin-left: 10px;
         margin-bottom: 26px;
     }
@@ -295,7 +295,7 @@ header {
 
 @media screen and (max-width: 1300px) {
     .secion_1__b2 {
-        width: 338px;
+        width: 298px;
         right: 11px;
         margin-left: 10px;
     }
