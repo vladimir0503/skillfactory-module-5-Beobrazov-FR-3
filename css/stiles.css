@@ -414,9 +414,10 @@ header {
 @media screen and (max-width: 1300px) {
     .text1_blocks {
         width: 300px;
+        display: flex;
         position: relative;
         top: 277px;
-        right: 14px;
+        margin: 0 auto;
     }
 
     .text1_block__relative {
@@ -461,11 +462,12 @@ header {
 
 @media screen and (max-width: 1300px) {
     .section_2__block_1__content__image_block1 {
+        display: flex;
         margin: 0 auto;
         margin-top: -168px;
         background: url(../images/image_2_mobile.png);
-        width: 340px;
-        height: 241px;
+        width: 298px;
+        height: 211px;
         box-shadow: 0px 50px 30px rgba(0, 0, 0, 0.15);
     }
 }
@@ -477,21 +479,20 @@ header {
 @media screen and (max-width: 1300px) {
     .section_2__block_1__content__image_block1__mobile_buttons {
         display: flex;
-        justify-content: center;
-        margin-top: 106px;
+        align-items: center;
+        margin: 0 auto;
     }
 
     .mobile_buttons_flex {
-        width: 309px;
-        margin: 0 auto;
+        width: 270px;
         display: flex;
         justify-content: space-between;
     }
 
     .mobile_button {
         border-radius: 50px;
-        width: 36px;
-        height: 36px;
+        width: 30px;
+        height: 30px;
         margin: 0;
     }
 
@@ -573,7 +574,7 @@ header {
 @media screen and (max-width: 1300px) {
     .section_2__block_2 {
         margin-top: -830px;
-        max-width: 340px;
+        max-width: 298px;
     }
 }
 
@@ -623,14 +624,25 @@ header {
 }
 
 @media screen and (max-width: 1300px) {
+    .block_2__image_group {
+        max-width: 817px;
+        max-height: 434px;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.15);
+    }
+}
+
+@media screen and (max-width: 1300px) {
     .image_group_container__image_laptop {
         display: none;
     }
 
     .image_group_container {
         background-image: url('../images/image 6 mobile.png');
-        width: 340px;
-        height: 207px;
+        width: 298px;
+        height: 181px;
     }
 }
 
@@ -651,8 +663,8 @@ header {
     .block_2__image_group__background {
         bottom: 0;
         right: 0;
-        width: 340px;
-        height: 207px;
+        width: 298px;
+        height: 181px;
     }
 }
 
@@ -711,7 +723,7 @@ header {
         font-size: 11px;
         line-height: 169.8%;
         color: #FFFFFF;
-        width: 340px;
+        width: 310px;
     }
 }
 
@@ -791,7 +803,7 @@ header {
 
 @media screen and (max-width: 1300px) {
     .input_container {
-        width: 340px;
+        width: 298px;
         border-bottom: 1px solid rgba(255, 255, 255, 0.52);
         margin-bottom: 63px;
     }
@@ -805,11 +817,12 @@ header {
 
 @media screen and (max-width: 1300px) {
     .button__input_box {
-        width: 340px;
+        width: 298px;
         height: 51px;
         margin: 0 auto;
+        margin-top: 0px;
         position: relative;
-        top: 48px;
+        top: 71px;
     }
 }
 
@@ -830,6 +843,7 @@ header {
         margin-top: -99px;
         margin-right: 52px;
         margin-bottom: 31px;
+        width: 288px;
     }
 }
 
@@ -887,9 +901,16 @@ header {
 
 @media screen and (max-width: 1300px) {
     .repair_block {
-        max-width: 340px;
+        max-width: 298px;
         flex-direction: column;
         margin-bottom: 174px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .repair_image {
+        width: 298px;
+        height: 320px;
     }
 }
 
@@ -900,7 +921,7 @@ header {
 
 @media screen and (max-width: 1300px) {
     .repair_block__option {
-        height: 582px;
+        height: 462px;
         margin-bottom: 59px;
     }
 }
@@ -963,6 +984,25 @@ header {
         line-height: 169.8%;
         color: #959595;
     }
+}
+
+.repair_block__price {
+    margin-top: -26px;
+    width: 228px;
+    height: 51px;
+    background: #E3B873;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+}
+
+@media screen and (max-width: 1300px) {
+    .repair_block__price {
+        margin-top: -12px;
+    }
+}
+
+.heading_price {
+    font-size: 18px;
+    margin-left: 22px;
 }
 
 .button__repair_block {
