@@ -1575,8 +1575,49 @@ footer {
     background: #131313;
 }
 
+.footer_text {
+    max-width: 1258px;
+    font-family: 'Nunito Sans';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 24px;
+    margin-bottom: 22px;
+}
+
+.footer_text a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin-right: 47.09px;
+    transition: .2s;
+}
+
+.footer_text a:hover {
+    color: #E3B873;
+}
+
+.footer_text a:nth-of-type(-n+7) {
+    text-decoration: none;
+}
+
+.footer_text a:first-of-type {
+    margin-right: 95.47px;
+}
+
+.footer_text a:nth-of-type(8) {
+    margin-left: 67.36px;
+}
+
 @media screen and (max-width: 1300px) {
     footer {
+        height: 6px;
+    }
+    
+    .footer_text {
         display: none;
     }
 }
