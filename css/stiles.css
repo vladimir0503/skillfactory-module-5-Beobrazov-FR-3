@@ -1291,7 +1291,7 @@ header {
     margin: 0;
     border-radius: 0;
     position: relative;
-    top: 57px;
+    top: 34px;
 }
 
 .client_block__button_text {
@@ -1323,6 +1323,7 @@ header {
     background-image: url('../images/cities.jpg');
     height: 777px;
     margin-top: -350px;
+    margin-bottom: -221px;
 }
 
 @media screen and (max-width: 1300px) {
@@ -1338,17 +1339,32 @@ header {
     height: 445px;
     background: #131313;
     box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
-    margin-top: 43px;
     margin: 0 auto;
     position: relative;
-    bottom: 222px;
     z-index: 10;
 }
+
+@media screen and (max-width: 1300px) {
+    .section_3__block_2__input_block {
+        height: 1000px;
+        width: 100vw;
+        margin-top: -188px;
+    }
+}
+
 .section_3__block_2__input_block form {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 11px;
+}
+
+@media screen and (max-width: 1300px) {
+    .section_3__block_2__input_block form {
+        width: 298px;
+        margin: 0 auto;
+        margin-top: 22px;
+    }
 }
 
 .heading_8 {
@@ -1360,6 +1376,13 @@ header {
 .checkbox3 {
     margin-top: 0px;
     margin-bottom: 27px;
+}
+
+@media screen and (max-width: 1300px) {
+    .checkbox3 {
+        margin-top: -37px;
+        margin-left: 42px;
+    }
 }
 
 .checkbox3 input {
@@ -1392,11 +1415,26 @@ header {
     margin-bottom: 48px;
 }
 
+@media screen and (max-width: 1300px) {
+    .input_block__container2__block {
+        flex-direction: column;
+        width: 298px;
+        margin: 0 auto;
+    }
+}
+
 .input_block__container2 {
     width: 231px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
     margin: 0;
     padding-bottom: 4px;
+}
+
+@media screen and (max-width: 1300px) {
+    .input_block__container2 {
+        width: 298px;
+        margin-bottom: 63px;
+    }
 }
 
 .input_block__container3 {
@@ -1407,10 +1445,22 @@ header {
     margin-bottom: 46px;
 }
 
+@media screen and (max-width: 1300px) {
+    .input_block__container3 {
+        width: 298px;
+    }
+}
+
 .button__input_block2 {
     width: 200px;
     height: 51px;
     margin: 0;
+}
+
+@media screen and (max-width: 1300px) {
+    .button__input_block2 {
+        width: 298px;
+    }
 }
 
 .section_3__block_3 {
@@ -1427,6 +1477,15 @@ header {
     color: #E3B873;
 }
 
+@media screen and (max-width: 1300px) {
+    .heading_9 {
+        margin-top: 761px;
+        font-size: 18px;
+        line-height: 138.6%;
+        width: 298px;
+    }
+}
+
 .section_3__block_3__adress_block {
     display: flex;
     flex-direction: column;
@@ -1437,12 +1496,40 @@ header {
     position: relative;
 }
 
+@media screen and (max-width: 1300px) {
+    .section_3__block_3__adress_block {
+        margin: 0 auto;
+        z-index: 10;
+    }
+}
+
 .section_3__block_3__adress_block__bakground {
     content: url('../images/Rectangle 9.2.png');
     background-size: cover;
-    margin-top: -443px;
-    height: 953px;
+    margin-top: -223px;
     position: relative;
+}
+
+@media screen and (max-width: 1300px) {
+    .section_3__block_3__adress_block__bakground {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .desktop_map {
+        display: none;
+    }
+
+    .mobile_map {
+        margin-top: -452px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .mobile_map {
+        display: none;
+    }
 }
 
 .adress_block__link_block {
@@ -1450,8 +1537,34 @@ header {
     margin-bottom: 29px;
 }
 
+@media screen and (max-width: 1300px) {
+    .adress_block__link_block {
+        width: 132px;
+        justify-content: space-between;
+        margin-left: 15px;
+    }
+}
+
 .adress_block__link_block img {
     margin-right: 15px;
+}
+
+@media screen and (max-width: 1300px) {
+    .adress_block__link_block img {
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .mobile_mail_link {
+        width: 39px;
+        height: 39px;
+    }
+
+    .mobile_inst_link {
+        width: 39px;
+        height: 39px;
+    }
 }
 
 footer {
@@ -1461,3 +1574,10 @@ footer {
     height: 83px;
     background: #131313;
 }
+
+@media screen and (max-width: 1300px) {
+    footer {
+        display: none;
+    }
+}
+
