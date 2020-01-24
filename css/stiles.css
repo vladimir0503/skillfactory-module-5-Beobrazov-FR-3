@@ -1500,6 +1500,7 @@ header {
     .section_3__block_3__adress_block {
         margin: 0 auto;
         z-index: 10;
+        height: 0px;
     }
 }
 
